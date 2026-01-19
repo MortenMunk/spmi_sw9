@@ -1,0 +1,26 @@
+#import "/globals.typ": *
+
+#show: metropolis-theme.with(
+  aspect-ratio: "16-9",
+  footer: self => self.info.institution,
+  config-info(
+    title: [UNSUPERVISED CIPHER CRACKING USING DISCRETE
+      GANS],
+    //subtitle: [],
+    author: [Morten Munk],
+    date: [January 2026],
+    institution: [AAU CPH - SW9],
+  ),
+)
+#set heading(numbering: numbly("{1}.", default: "1.1"))
+#title-slide()
+// Table of contents
+#include "sections/toc.typ"
+#include "sections/intro.typ"
+//#include "sections/intro.typ"
+//#include "sections/linformer.typ"
+//#include "sections/performer.typ"
+//#include "sections/rnn.typ"
+//#include "sections/ls.typ"
+//#include "sections/x.typ"
+
