@@ -5,9 +5,15 @@
 ---
 
 == Caesar Shift
+#grid(
+  columns: (auto, auto),
+  column-gutter: 2em,
+  row-gutter: 1em,
+  [*PLAIN:*], [`a b c d e f g h i j k l m n o p q r s t u v w x y z`],
+  [*3-SHIFTED:*], [`d e f g h i j k l m n o p q r s t u v w x y z a b c`],
+)
 
-$$
-
+*Example*: $"hello world" -> "khoor zruog"$
 ---
 
 == Vigenère
