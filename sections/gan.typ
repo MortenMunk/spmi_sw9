@@ -17,7 +17,7 @@ $D^*=arg max_D E_(x~cal(X)) [log D(x)] - E_(z~cal(Z))[log(1-D(F(z)))]$
 
 
 #align(center)[
-  $D^*=arg max_D E_(x~cal(X)) [log D(x)] - E_(z~cal(Z)[log(1-D(F(z)))]$
+  $D^*=arg max_D E_(x~cal(X)) [log D(x)] - E_(z~cal(Z))[log(1-D(F(z)))]$
 ]
 
 
@@ -47,3 +47,24 @@ $D^*=arg max_D E_(x~cal(X)) [log D(x)] - E_(z~cal(Z))[log(1-D(F(z)))]$
     - Chance of correctly identifying fakes
   ],
 )
+
+#pause
+
+*Vulnerable to mode collapse*
+- Generator loses diversity - distribution collapses
+
+---
+
+== Wasserstein Jacobian Norm GAN
+
+#align(center)[#image(
+  "./../img/disc.png",
+  width: 80%,
+)]
+
+*Original GAN can be too strict*
+- No helpful feedback
+
+*WGAN Jacobian norm*
+
+*Relaxation Sampling*
