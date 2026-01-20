@@ -17,7 +17,9 @@
 // Table of contents
 #include "sections/toc.typ"
 #include "sections/intro.typ"
-//#include "sections/intro.typ"
+// KEY CONCEPTS
+#include "sections/ciphers.typ"
+#include "sections/gan.typ"
 //#include "sections/linformer.typ"
 //#include "sections/performer.typ"
 //#include "sections/rnn.typ"
