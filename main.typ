@@ -20,9 +20,5 @@
 // KEY CONCEPTS
 #include "sections/ciphers.typ"
 #include "sections/gan.typ"
-//#include "sections/linformer.typ"
-//#include "sections/performer.typ"
-//#include "sections/rnn.typ"
-//#include "sections/ls.typ"
-//#include "sections/x.typ"
+// RELATED WORK
 
