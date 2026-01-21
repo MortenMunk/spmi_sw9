@@ -21,4 +21,5 @@
 #include "sections/ciphers.typ"
 #include "sections/gan.typ"
 // RELATED WORK
+#include "sections/cyclegan.typ"
 

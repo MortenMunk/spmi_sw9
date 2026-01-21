@@ -55,7 +55,6 @@ $D^*=arg max_D E_(x~cal(X)) [log D(x)] - E_(z~cal(Z))[log(1-D(F(z)))]$
 
 ---
 
-== Wasserstein Jacobian Norm GAN
 
 #align(center)[#image(
   "./../img/disc.png",
@@ -65,6 +64,10 @@ $D^*=arg max_D E_(x~cal(X)) [log D(x)] - E_(z~cal(Z))[log(1-D(F(z)))]$
 *Original GAN can be too strict*
 - No helpful feedback
 
-*WGAN Jacobian norm*
+*Used by this paper*
+- Wasserstein Jacobian norm
+- Relaxation Sampling
 
-*Relaxation Sampling*
+---
+
+
