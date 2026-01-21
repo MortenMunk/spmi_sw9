@@ -7,16 +7,15 @@
 ---
 
 *Why not test on a real cipher?*
-- The real Caesar cipher
-- Civil War Vigenere cipher
+- E.g. Civil War Vigenere cipher
+- Real ciphers has typos, etc.
 
 *Sequence length bottleneck*
 - 200 chars is short!
-- Concat timing limited to training length
 - GANs are likely to become unstable
 
 *Why only compare against non-neural approaches?*
-- Maybe compare with LSTM, etc?
+- Other neural baselines?
 
 #pause
 
