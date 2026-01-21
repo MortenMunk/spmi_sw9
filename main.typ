@@ -24,4 +24,8 @@
 #include "sections/cyclegan.typ"
 // IDEAS
 #include "sections/ciphergan.typ"
-
+#include "sections/data.typ"
+// CRITICISM
+#include "sections/critics.typ"
+// OUR WORK
+#include "sections/our.typ"
