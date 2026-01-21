@@ -44,8 +44,9 @@ $cal(L)(F,G,D_(cal(Y)), D_(cal(Y)), cal(X), cal(Y)) = underparen(cal(L)_("GAN")(
 - Generator G: Ciphertext to plaintext for discriminator $D_cal(X)$
 
 *$lambda$*
-- Hyperparameter for weight of cycle
+- Hyperparameter - good translator vs good detective
 
 *Cycle*
-- Ensures diversity
-- Avoid mode collapse
+- Ensures diversity - avoid mode collapse
+
+---

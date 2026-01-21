@@ -22,4 +22,6 @@
 #include "sections/gan.typ"
 // RELATED WORK
 #include "sections/cyclegan.typ"
+// IDEAS
+#include "sections/ciphergan.typ"
 

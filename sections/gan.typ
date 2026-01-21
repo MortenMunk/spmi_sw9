@@ -1,6 +1,6 @@
 #import "/globals.typ": *
 
-== Generative Adverserial Networks
+== GAN
 
 
 *Generator*
