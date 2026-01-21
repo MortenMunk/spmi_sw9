@@ -14,8 +14,9 @@
 - 200 chars is short!
 - GANs are likely to become unstable
 
-*Why only compare against non-neural approaches?*
-- Other neural baselines?
+*Missing other neural baselines*
+
+*Missing related work section*
 
 #pause
 
