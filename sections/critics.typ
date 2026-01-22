@@ -10,13 +10,15 @@
 - E.g. Civil War Vigenere cipher
 - Real ciphers has typos, etc.
 
-*Sequence length bottleneck*
-- 200 chars is short!
-- GANs are likely to become unstable
+*Cipher lengths*
+- No real stress testing
 
 *Missing other neural baselines*
+- LSTM or Transformers
 
-*Missing related work section*
+*Missing sections*
+- Related work
+- Future Work
 
 #pause
 

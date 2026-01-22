@@ -25,6 +25,8 @@
 // IDEAS
 #include "sections/ciphergan.typ"
 #include "sections/data.typ"
+// CONTRIBUTIONS
+#include "sections/contrib.typ"
 // CRITICISM
 #include "sections/critics.typ"
 // OUR WORK

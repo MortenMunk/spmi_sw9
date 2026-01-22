@@ -3,7 +3,10 @@
 
 ---
 
-== Caesar Shift
+== Ciphers
+
+Caesar Shift
+
 #grid(
   columns: (auto, auto),
   column-gutter: 2em,
@@ -14,6 +17,8 @@
 
 *Example*: $"hello world" -> "khoor zruog"$
 ---
+
+Caesar Shift
 
 #grid(
   columns: (auto, auto),
@@ -29,12 +34,15 @@
 - Trivial to solve with frequency analysis
 
 ---
-== Vigenère
+
 
 #grid(
   columns: (1fr, 1fr),
   column-gutter: 2em,
   [
+    Vigenère
+
+
     *PLAIN:* `hello world`
 
     *KEY:* `soda`
@@ -55,6 +63,8 @@
   columns: (1fr, 1fr),
   column-gutter: 2em,
   [
+    Vigenère
+
     *PLAIN:* `hello world`
 
     *KEY:* `soda`
@@ -72,10 +82,13 @@
 
 ---
 
+
 #grid(
   columns: (1fr, 1fr),
   column-gutter: 2em,
   [
+    Vigenère
+
     *PLAIN:* `hello world`
 
     *KEY:* `soda`
@@ -98,10 +111,13 @@
 
 ---
 
+
 #grid(
   columns: (1fr, 1fr),
   column-gutter: 2em,
   [
+    Vigenère
+
     *PLAIN:* `hello world`
 
     *KEY:* `soda`

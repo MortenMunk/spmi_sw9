@@ -4,6 +4,21 @@
 
 == CipherGAN
 
+
+#align(center)[#image(
+  "./../img/disc.png",
+  width: 80%,
+)]
+
+*Original GAN can be too strict*
+- No helpful feedback
+
+*Used by this paper*
+- Wasserstein Jacobian norm
+- Relaxation Sampling
+
+---
+
 *Words in embedding space*
 - Discrete choices do not produce gradients
 #image("./../img/graph.png", width: 100%)
@@ -26,22 +41,5 @@
 #image("./../img/graph.png", width: 100%)
 
 ---
-
-== Discrete vs. Continous
-
-#align(center)[#image(
-  "./../img/disc.png",
-  width: 80%,
-)]
-
-*Original GAN can be too strict*
-- No helpful feedback
-
-*Used by this paper*
-- Wasserstein Jacobian norm
-- Relaxation Sampling
-
----
-
 
 
