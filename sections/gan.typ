@@ -3,50 +3,30 @@
 == GAN
 
 
-*Generator*
-- Attempts to produce convincing samples from data distribution
-- Denoted as F
-
-*Discriminator*
-- Tries to distinguish between true and synthetic samples
-- Denoted as G
-
-$D^*=arg max_D E_(x~cal(X)) [log D(x)] - E_(z~cal(Z))[log(1-D(F(z)))]$
-
----
-
-
-#align(center)[
-  $D^*=arg max_D E_(x~cal(X)) [log D(x)] - E_(z~cal(Z))[log(1-D(F(z)))]$
-]
-
-
 #grid(
   columns: (1fr, 1fr),
   gutter: 2em,
   [
 
-    *$D^*$*
-    - optimal discriminator
+    *Generator (G)*
+    - Generates fake samples from noise
 
-    *$arg max_D$*
-    - parameters causing highest possible score
-
-    *$E_(x~cal(X))$*
-    - Real data
+    *Discriminator (D)*
+    - Tries to classify real/fake
   ],
   [
-    *$D(x)$*
-    - Assigned probability
-    - (e.g. 1 = real, 0 = fake)
+    *Minimax game*
+    - D wants to be a good classifier (max)
+    - G Wants to fool D with fakes (min)
 
-    *$F(z)$*
-    - Generator creating fake text
-
-    *$1-D(F(z))$*
-    - Chance of correctly identifying fakes
+    *Convergence*
+    - Similar distribution for real/fake
+    - D is maximally uncertain (50/50)
   ],
 )
+
+
+#image("./../img/gan.png", width: 80%)
 
 #pause
 
