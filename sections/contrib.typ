@@ -28,7 +28,13 @@
 
   ],
   [
-    #align(center)[#image("./../img/comp.png", width: 80%)]
+    #align(center)[
+      #figure(
+        image("./../img/comp.png", width: 80%),
+        caption: text(size: 0.7em)[Gomez, et al. 2018],
+        supplement: none,
+      )
+    ]
   ],
 )
 

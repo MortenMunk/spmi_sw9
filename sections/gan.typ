@@ -26,7 +26,11 @@
 )
 
 
-#image("./../img/gan.png", width: 80%)
+#figure(
+  image("./../img/gan.png", width: 80%),
+  caption: text(size: 0.7em)[Inspired by Goodfellow et al. 2014],
+  supplement: none,
+)
 
 #pause
 

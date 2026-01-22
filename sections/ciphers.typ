@@ -52,7 +52,11 @@ Caesar Shift
     *ENCRYPTED:* `zsolg krrdr`
   ],
   [
-    #image("./../img/vigenere.png", width: 100%)
+    #figure(
+      image("./../img/vigenere.png", width: 100%),
+      caption: text(size: 0.7em)[Src: Vigenere Cipher - Udacity, Youtube],
+      supplement: none,
+    )
   ],
 )
 
@@ -76,7 +80,11 @@ Caesar Shift
     $("h","s") -> "z"$
   ],
   [
-    #image("./../img/vigenere1.png", width: 100%)
+    #figure(
+      image("./../img/vigenere1.png", width: 100%),
+      caption: text(size: 0.7em)[Src: Vigenere Cipher - Udacity, Youtube],
+      supplement: none,
+    )
   ],
 )
 
@@ -104,7 +112,11 @@ Caesar Shift
     And so on...
   ],
   [
-    #image("./../img/vigenere2.png", width: 100%)
+    #figure(
+      image("./../img/vigenere2.png", width: 100%),
+      caption: text(size: 0.7em)[Src: Vigenere Cipher - Udacity, Youtube],
+      supplement: none,
+    )
   ],
 )
 
@@ -136,6 +148,10 @@ Caesar Shift
     - Frequencies are scrambled
   ],
   [
-    #image("./../img/vigenere2.png", width: 100%)
+    #figure(
+      image("./../img/vigenere2.png", width: 100%),
+      caption: text(size: 0.7em)[Src: Vigenere Cipher - Udacity, Youtube],
+      supplement: none,
+    )
   ],
 )

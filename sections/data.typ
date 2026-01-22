@@ -17,7 +17,11 @@
 
 == Results
 
-#image("./../img/results.png", width: 100%)
+#figure(
+  image("./../img/results.png", width: 100%),
+  caption: text(size: 0.7em)[Gomez, et al. 2018],
+  supplement: none,
+)
 
 ---
 
