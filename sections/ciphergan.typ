@@ -27,4 +27,21 @@
 
 ---
 
+== Discrete vs. Continous
+
+#align(center)[#image(
+  "./../img/disc.png",
+  width: 80%,
+)]
+
+*Original GAN can be too strict*
+- No helpful feedback
+
+*Used by this paper*
+- Wasserstein Jacobian norm
+- Relaxation Sampling
+
+---
+
+
 
