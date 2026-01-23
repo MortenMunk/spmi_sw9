@@ -22,7 +22,7 @@
         *Performance & scaling*
         - Less data needed
         - More accurate
-        ... Compared to previous models
+        - Handles larger vocab
       ],
     )
 

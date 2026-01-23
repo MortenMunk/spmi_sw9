@@ -17,7 +17,6 @@
 *Unsupervised learning*
 - Unpaired bank of ciphertext/plaintext
 - No knowledge of vocab frequencies or cipher keys
-- Large vocab (200 elements)
 
 ---
 

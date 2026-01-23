@@ -7,12 +7,17 @@
     title: [UNSUPERVISED CIPHER CRACKING USING DISCRETE
       GANS],
     //subtitle: [],
-    author: [Morten Munk],
-    date: [January 2026],
-    institution: [AAU CPH - SW9],
+    author: [
+      Aidan N. Gomez, Sicong Huang, Ivan Zhang, Bryan M. Li, Muhammad Osama, Lukasz Kaiser
+    ],
+    date: [January 2018],
+    institution: [],
   ),
 )
 #set heading(numbering: numbly("{1}.", default: "1.1"))
+#title-slide(extra: [_Presented by Morten Munk_])
+
+
 #title-slide()
 // Table of contents
 #include "sections/toc.typ"

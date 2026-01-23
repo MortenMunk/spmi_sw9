@@ -34,17 +34,7 @@
   )
 
 ---
-*WGAN-GP (Jacobian Norm)*
-- Limit learning rate of discriminator
-- Smooth training signal for generator
 
-  #figure(
-    image("./../img/graph.png", width: 90%),
-    caption: text(size: 0.7em)[Gomez, et al. 2018],
-    supplement: none,
-  )
-
----
 
 *Positional embedding (Timing)*
 - Vigenère relies on positioning

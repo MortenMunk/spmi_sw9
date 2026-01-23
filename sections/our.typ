@@ -25,3 +25,16 @@
     #image("./../img/clm.png", width: 100%)
   ],
 )
+
+
+---
+
+*Transpositions*
+- Maybe concat timing?
+
+*Discriminator*
+- "Is this english-like?"
+- Maybe too unstable
+
+*CipherGAN will likely struggle*
+- HSC is not uniquely invertible

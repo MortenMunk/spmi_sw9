@@ -20,7 +20,3 @@
 - Related work
 - Future Work
 
-#pause
-
-*Current better models - (like CausalLM)*
-- We know this because we are from the future #emoji.face.smile
