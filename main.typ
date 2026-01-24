@@ -18,7 +18,6 @@
 #title-slide(extra: [_Presented by Morten Munk_])
 
 
-#title-slide()
 // Table of contents
 #include "sections/toc.typ"
 #include "sections/intro.typ"
