@@ -20,9 +20,9 @@
       [
 
         *Performance & scaling*
-        - Less data needed
-        - More accurate
-        - Handles larger vocab
+        - Accuracy
+        - Unsupervised
+        - Larger vocab
       ],
     )
 

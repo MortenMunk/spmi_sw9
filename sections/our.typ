@@ -32,9 +32,9 @@
 *Transpositions*
 - Maybe concat timing?
 
-*Discriminator*
-- "Is this english-like?"
-- Maybe too unstable
-
 *CipherGAN will likely struggle*
 - HSC is not uniquely invertible
+- Maybe GAN is too unstable for HSC
+
+*Supervised learning*
+- We did not explore unsupervised

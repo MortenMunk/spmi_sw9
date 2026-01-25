@@ -38,7 +38,7 @@
 
 *Positional embedding (Timing)*
 - Vigenère relies on positioning
-- Tag each letter with position index
+- Position is described using vector in embedding
 
 
   #figure(
