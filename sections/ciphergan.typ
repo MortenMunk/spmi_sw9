@@ -50,3 +50,15 @@
 ---
 
 
+*Squared difference instead of log likelihood*
+- Provided stable gradient
+- Determines distance from target
+
+
+  #figure(
+    image("./../img/graph.png", width: 90%),
+    caption: text(size: 0.7em)[Gomez, et al. 2018],
+    supplement: none,
+  )
+
+---
