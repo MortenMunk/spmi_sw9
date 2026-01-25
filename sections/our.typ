@@ -30,11 +30,13 @@
 ---
 
 *Transpositions*
-- Maybe concat timing?
+- Modern transformers scale better
+- Concat is limited to the positions it was trained on
 
 *CipherGAN will likely struggle*
 - HSC is not uniquely invertible
 - Maybe GAN is too unstable for HSC
 
 *Supervised learning*
-- We did not explore unsupervised
+- We got best results this way
+- GloVe & PPMI gave poor results
