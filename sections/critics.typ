@@ -16,7 +16,6 @@
 *Missing other neural baselines*
 - LSTM or Transformers
 
-*Missing sections*
-- Related work
+*Missing reflections*
 - Future Work
 
